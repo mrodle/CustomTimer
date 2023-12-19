@@ -16,6 +16,12 @@
 		1485D0E52B2EE9910020D004 /* CustomTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0E42B2EE9910020D004 /* CustomTimerTests.swift */; };
 		1485D0EF2B2EE9910020D004 /* CustomTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0EE2B2EE9910020D004 /* CustomTimerUITests.swift */; };
 		1485D0F12B2EE9910020D004 /* CustomTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0F02B2EE9910020D004 /* CustomTimerUITestsLaunchTests.swift */; };
+		1485D1002B2EE9BA0020D004 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0FE2B2EE9B90020D004 /* ProgressBar.swift */; };
+		1485D1012B2EE9BA0020D004 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0FF2B2EE9BA0020D004 /* TimerViewController.swift */; };
+		1485D1052B2EE9E90020D004 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D1032B2EE9E90020D004 /* CustomColor.swift */; };
+		1485D1062B2EE9E90020D004 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D1042B2EE9E90020D004 /* CountdownTimer.swift */; };
+		1485D1082B2EEA010020D004 /* AppCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D1072B2EEA010020D004 /* AppCenter.swift */; };
+		14A6AF312B31F41400BF27AB /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A6AF302B31F41400BF27AB /* TimePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		1485D0EA2B2EE9910020D004 /* CustomTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1485D0EE2B2EE9910020D004 /* CustomTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimerUITests.swift; sourceTree = "<group>"; };
 		1485D0F02B2EE9910020D004 /* CustomTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1485D0FE2B2EE9B90020D004 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		1485D0FF2B2EE9BA0020D004 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		1485D1032B2EE9E90020D004 /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		1485D1042B2EE9E90020D004 /* CountdownTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
+		1485D1072B2EEA010020D004 /* AppCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCenter.swift; sourceTree = "<group>"; };
+		14A6AF302B31F41400BF27AB /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,10 @@
 		1485D0CC2B2EE9900020D004 /* CustomTimer */ = {
 			isa = PBXGroup;
 			children = (
+				1485D1022B2EE9CC0020D004 /* Utility */,
+				1485D0FD2B2EE9A20020D004 /* View */,
 				1485D0CD2B2EE9900020D004 /* AppDelegate.swift */,
+				1485D1072B2EEA010020D004 /* AppCenter.swift */,
 				1485D0CF2B2EE9900020D004 /* SceneDelegate.swift */,
 				1485D0D12B2EE9900020D004 /* ViewController.swift */,
 				1485D0D32B2EE9900020D004 /* Main.storyboard */,
@@ -125,6 +140,25 @@
 				1485D0F02B2EE9910020D004 /* CustomTimerUITestsLaunchTests.swift */,
 			);
 			path = CustomTimerUITests;
+			sourceTree = "<group>";
+		};
+		1485D0FD2B2EE9A20020D004 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1485D0FE2B2EE9B90020D004 /* ProgressBar.swift */,
+				1485D0FF2B2EE9BA0020D004 /* TimerViewController.swift */,
+				14A6AF302B31F41400BF27AB /* TimePickerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1485D1022B2EE9CC0020D004 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1485D1042B2EE9E90020D004 /* CountdownTimer.swift */,
+				1485D1032B2EE9E90020D004 /* CustomColor.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +292,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1485D1012B2EE9BA0020D004 /* TimerViewController.swift in Sources */,
+				14A6AF312B31F41400BF27AB /* TimePickerView.swift in Sources */,
 				1485D0D22B2EE9900020D004 /* ViewController.swift in Sources */,
+				1485D1052B2EE9E90020D004 /* CustomColor.swift in Sources */,
+				1485D1062B2EE9E90020D004 /* CountdownTimer.swift in Sources */,
+				1485D1082B2EEA010020D004 /* AppCenter.swift in Sources */,
 				1485D0CE2B2EE9900020D004 /* AppDelegate.swift in Sources */,
+				1485D1002B2EE9BA0020D004 /* ProgressBar.swift in Sources */,
 				1485D0D02B2EE9900020D004 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
