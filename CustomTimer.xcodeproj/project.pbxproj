@@ -9,19 +9,17 @@
 /* Begin PBXBuildFile section */
 		1485D0CE2B2EE9900020D004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0CD2B2EE9900020D004 /* AppDelegate.swift */; };
 		1485D0D02B2EE9900020D004 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0CF2B2EE9900020D004 /* SceneDelegate.swift */; };
-		1485D0D22B2EE9900020D004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0D12B2EE9900020D004 /* ViewController.swift */; };
 		1485D0D52B2EE9900020D004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1485D0D32B2EE9900020D004 /* Main.storyboard */; };
 		1485D0D72B2EE9910020D004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1485D0D62B2EE9910020D004 /* Assets.xcassets */; };
 		1485D0DA2B2EE9910020D004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1485D0D82B2EE9910020D004 /* LaunchScreen.storyboard */; };
 		1485D0E52B2EE9910020D004 /* CustomTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0E42B2EE9910020D004 /* CustomTimerTests.swift */; };
 		1485D0EF2B2EE9910020D004 /* CustomTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0EE2B2EE9910020D004 /* CustomTimerUITests.swift */; };
 		1485D0F12B2EE9910020D004 /* CustomTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0F02B2EE9910020D004 /* CustomTimerUITestsLaunchTests.swift */; };
-		1485D1002B2EE9BA0020D004 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0FE2B2EE9B90020D004 /* ProgressBar.swift */; };
-		1485D1012B2EE9BA0020D004 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0FF2B2EE9BA0020D004 /* TimerViewController.swift */; };
-		1485D1052B2EE9E90020D004 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D1032B2EE9E90020D004 /* CustomColor.swift */; };
-		1485D1062B2EE9E90020D004 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D1042B2EE9E90020D004 /* CountdownTimer.swift */; };
-		1485D1082B2EEA010020D004 /* AppCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D1072B2EEA010020D004 /* AppCenter.swift */; };
-		14A6AF312B31F41400BF27AB /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A6AF302B31F41400BF27AB /* TimePickerView.swift */; };
+		1485D1002B2EE9BA0020D004 /* 进度条.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0FE2B2EE9B90020D004 /* 进度条.swift */; };
+		1485D1012B2EE9BA0020D004 /* 定时器视图控制器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D0FF2B2EE9BA0020D004 /* 定时器视图控制器.swift */; };
+		1485D1052B2EE9E90020D004 /* 自定义颜色.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D1032B2EE9E90020D004 /* 自定义颜色.swift */; };
+		1485D1062B2EE9E90020D004 /* 倒数定时器类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D1042B2EE9E90020D004 /* 倒数定时器类.swift */; };
+		14A6AF312B31F41400BF27AB /* 时间选择器视图.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A6AF302B31F41400BF27AB /* 时间选择器视图.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +43,6 @@
 		1485D0CA2B2EE9900020D004 /* CustomTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1485D0CD2B2EE9900020D004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1485D0CF2B2EE9900020D004 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1485D0D12B2EE9900020D004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1485D0D42B2EE9900020D004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1485D0D62B2EE9910020D004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1485D0D92B2EE9910020D004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,12 +52,11 @@
 		1485D0EA2B2EE9910020D004 /* CustomTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1485D0EE2B2EE9910020D004 /* CustomTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimerUITests.swift; sourceTree = "<group>"; };
 		1485D0F02B2EE9910020D004 /* CustomTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1485D0FE2B2EE9B90020D004 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
-		1485D0FF2B2EE9BA0020D004 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
-		1485D1032B2EE9E90020D004 /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
-		1485D1042B2EE9E90020D004 /* CountdownTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
-		1485D1072B2EEA010020D004 /* AppCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCenter.swift; sourceTree = "<group>"; };
-		14A6AF302B31F41400BF27AB /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		1485D0FE2B2EE9B90020D004 /* 进度条.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "进度条.swift"; sourceTree = "<group>"; };
+		1485D0FF2B2EE9BA0020D004 /* 定时器视图控制器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "定时器视图控制器.swift"; sourceTree = "<group>"; };
+		1485D1032B2EE9E90020D004 /* 自定义颜色.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "自定义颜色.swift"; sourceTree = "<group>"; };
+		1485D1042B2EE9E90020D004 /* 倒数定时器类.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "倒数定时器类.swift"; sourceTree = "<group>"; };
+		14A6AF302B31F41400BF27AB /* 时间选择器视图.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "时间选择器视图.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +110,7 @@
 				1485D1022B2EE9CC0020D004 /* Utility */,
 				1485D0FD2B2EE9A20020D004 /* View */,
 				1485D0CD2B2EE9900020D004 /* AppDelegate.swift */,
-				1485D1072B2EEA010020D004 /* AppCenter.swift */,
 				1485D0CF2B2EE9900020D004 /* SceneDelegate.swift */,
-				1485D0D12B2EE9900020D004 /* ViewController.swift */,
 				1485D0D32B2EE9900020D004 /* Main.storyboard */,
 				1485D0D62B2EE9910020D004 /* Assets.xcassets */,
 				1485D0D82B2EE9910020D004 /* LaunchScreen.storyboard */,
@@ -145,9 +139,9 @@
 		1485D0FD2B2EE9A20020D004 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1485D0FE2B2EE9B90020D004 /* ProgressBar.swift */,
-				1485D0FF2B2EE9BA0020D004 /* TimerViewController.swift */,
-				14A6AF302B31F41400BF27AB /* TimePickerView.swift */,
+				1485D0FE2B2EE9B90020D004 /* 进度条.swift */,
+				1485D0FF2B2EE9BA0020D004 /* 定时器视图控制器.swift */,
+				14A6AF302B31F41400BF27AB /* 时间选择器视图.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,8 +149,8 @@
 		1485D1022B2EE9CC0020D004 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				1485D1042B2EE9E90020D004 /* CountdownTimer.swift */,
-				1485D1032B2EE9E90020D004 /* CustomColor.swift */,
+				1485D1042B2EE9E90020D004 /* 倒数定时器类.swift */,
+				1485D1032B2EE9E90020D004 /* 自定义颜色.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -292,14 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1485D1012B2EE9BA0020D004 /* TimerViewController.swift in Sources */,
-				14A6AF312B31F41400BF27AB /* TimePickerView.swift in Sources */,
-				1485D0D22B2EE9900020D004 /* ViewController.swift in Sources */,
-				1485D1052B2EE9E90020D004 /* CustomColor.swift in Sources */,
-				1485D1062B2EE9E90020D004 /* CountdownTimer.swift in Sources */,
-				1485D1082B2EEA010020D004 /* AppCenter.swift in Sources */,
+				1485D1012B2EE9BA0020D004 /* 定时器视图控制器.swift in Sources */,
+				14A6AF312B31F41400BF27AB /* 时间选择器视图.swift in Sources */,
+				1485D1052B2EE9E90020D004 /* 自定义颜色.swift in Sources */,
+				1485D1062B2EE9E90020D004 /* 倒数定时器类.swift in Sources */,
 				1485D0CE2B2EE9900020D004 /* AppDelegate.swift in Sources */,
-				1485D1002B2EE9BA0020D004 /* ProgressBar.swift in Sources */,
+				1485D1002B2EE9BA0020D004 /* 进度条.swift in Sources */,
 				1485D0D02B2EE9900020D004 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
